@@ -83,3 +83,24 @@
 2023-05-17 10:25:06.433 ERROR c.p.P.S.ConversionMeasurementService - Error occurred while processing input: Index 7 out of bounds for length 7
 2023-05-17 10:25:27.143 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [0, 0, 1, 2, 2, 3, 3, 15, 14]
 2023-05-17 10:25:27.144 ERROR c.p.P.S.ConversionMeasurementService - Error occurred while processing input: Index 9 out of bounds for length 9
+2023-05-17 11:04:07.666 INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.package_measurement_conversion.PackageConversionAPI.PackageConversionApiApplicationTests]: PackageConversionApiApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-05-17 11:04:07.809 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.package_measurement_conversion.PackageConversionAPI.PackageConversionApiApplication for test class com.package_measurement_conversion.PackageConversionAPI.PackageConversionApiApplicationTests
+2023-05-17 11:04:08.203 INFO  c.p.P.PackageConversionApiApplicationTests - Starting PackageConversionApiApplicationTests using Java 18.0.2.1 with PID 18532 (started by Wasan in C:\Users\TRA0004\IdeaProjects\PackageConversionAPI)
+2023-05-17 11:04:08.204 INFO  c.p.P.PackageConversionApiApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2023-05-17 11:04:09.925 INFO  c.p.P.PackageConversionApiApplicationTests - Started PackageConversionApiApplicationTests in 1.935 seconds (process running for 3.268)
+2023-05-17 11:04:10.439 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [1, 1]
+2023-05-17 11:04:10.441 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [1]
+2023-05-17 11:05:43.303 INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.package_measurement_conversion.PackageConversionAPI.PackageConversionApiApplicationTests]: PackageConversionApiApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-05-17 11:05:43.412 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.package_measurement_conversion.PackageConversionAPI.PackageConversionApiApplication for test class com.package_measurement_conversion.PackageConversionAPI.PackageConversionApiApplicationTests
+2023-05-17 11:05:43.770 INFO  c.p.P.PackageConversionApiApplicationTests - Starting PackageConversionApiApplicationTests using Java 18.0.2.1 with PID 11260 (started by Wasan in C:\Users\TRA0004\IdeaProjects\PackageConversionAPI)
+2023-05-17 11:05:43.771 INFO  c.p.P.PackageConversionApiApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2023-05-17 11:05:44.844 INFO  c.p.P.PackageConversionApiApplicationTests - Started PackageConversionApiApplicationTests in 1.244 seconds (process running for 2.531)
+2023-05-17 11:05:45.183 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [1, 2, 2, 3, 3]
+2023-05-17 11:05:45.184 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [2, 6]
+2023-05-17 11:10:49.841 INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.package_measurement_conversion.PackageConversionAPI.PackageConversionApiApplicationTests]: PackageConversionApiApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-05-17 11:10:49.946 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.package_measurement_conversion.PackageConversionAPI.PackageConversionApiApplication for test class com.package_measurement_conversion.PackageConversionAPI.PackageConversionApiApplicationTests
+2023-05-17 11:10:50.290 INFO  c.p.P.PackageConversionApiApplicationTests - Starting PackageConversionApiApplicationTests using Java 18.0.2.1 with PID 20756 (started by Wasan in C:\Users\TRA0004\IdeaProjects\PackageConversionAPI)
+2023-05-17 11:10:50.291 INFO  c.p.P.PackageConversionApiApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2023-05-17 11:10:51.332 INFO  c.p.P.PackageConversionApiApplicationTests - Started PackageConversionApiApplicationTests in 1.24 seconds (process running for 2.456)
+2023-05-17 11:10:51.731 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [1, 1]
+2023-05-17 11:10:51.732 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [1]
