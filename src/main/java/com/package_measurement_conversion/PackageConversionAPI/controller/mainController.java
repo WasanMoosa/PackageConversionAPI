@@ -1,32 +1,39 @@
 package com.package_measurement_conversion.PackageConversionAPI.controller;
 
+import com.package_measurement_conversion.PackageConversionAPI.Service.ConversionMeasurementService;
+import com.package_measurement_conversion.PackageConversionAPI.Service.InputValidationService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
+import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.Arrays;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 
 @RestController
 @RequestMapping
 public class mainController {
-  @GetMapping("/convert-measurements")
-  public HashMap<String, Object> convertMeasurements(@RequestParam(value = "input", defaultValue = "no measurement") String input) {
-    HashMap<String, Object> response = new HashMap<>();
+    @Autowired
+    ConversionMeasurementService conversionMeasurementService;
 
-    response.put("body", input);
+    @Autowired
+    InputValidationService inputValidationService;
 
-    HttpStatus httpStatus = HttpStatus.OK;
+    @GetMapping("/convert-measurements")
+    public Object convertMeasurements(@RequestParam(value = "input") String input) {
+        List<Integer> numList = new ArrayList<>();
+        if (inputValidationService.checkInputValidation(input)) {
+            return conversionMeasurementService.applySpecialLogic(input);
+        } else if (inputValidationService.isEmptyString(input)) {
+            return numList;
+        } else {
+            return "You are typing something wrong!!" + "\n You can only type letters and under score";
+        }
 
-    // check if response is not OK and set the status accordingly
-    if (httpStatus.isError()) {
-      response.put("status", httpStatus.value());
-    } else {
-      response.put("status", "200 OK");
     }
-    return response;
-  }
 }
 

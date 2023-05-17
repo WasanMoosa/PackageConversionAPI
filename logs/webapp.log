@@ -1,0 +1,31 @@
+2023-05-17 02:09:59.318 INFO  c.p.P.PackageConversionApiApplication - Starting PackageConversionApiApplication using Java 18.0.2.1 with PID 7328 (C:\Users\TRA0004\IdeaProjects\PackageConversionAPI\target\classes started by Wasan in C:\Users\TRA0004\IdeaProjects\PackageConversionAPI)
+2023-05-17 02:09:59.322 INFO  c.p.P.PackageConversionApiApplication - No active profile set, falling back to 1 default profile: "default"
+2023-05-17 02:10:00.522 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-05-17 02:10:00.535 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-17 02:10:00.536 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-05-17 02:10:00.537 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-17 02:10:00.640 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-05-17 02:10:00.640 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1244 ms
+2023-05-17 02:10:01.015 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-05-17 02:10:01.047 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-17 02:10:01.058 INFO  c.p.P.PackageConversionApiApplication - Started PackageConversionApiApplication in 2.218 seconds (process running for 3.002)
+2023-05-17 02:10:41.631 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-17 02:10:41.631 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-05-17 02:10:41.632 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-05-17 02:10:41.690 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'input' for method parameter type String is not present]
+2023-05-17 02:21:10.781 INFO  c.p.P.PackageConversionApiApplication - Starting PackageConversionApiApplication using Java 18.0.2.1 with PID 14416 (C:\Users\TRA0004\IdeaProjects\PackageConversionAPI\target\classes started by Wasan in C:\Users\TRA0004\IdeaProjects\PackageConversionAPI)
+2023-05-17 02:21:10.785 INFO  c.p.P.PackageConversionApiApplication - No active profile set, falling back to 1 default profile: "default"
+2023-05-17 02:21:11.958 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-05-17 02:21:11.973 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-17 02:21:11.974 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-05-17 02:21:11.976 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-17 02:21:12.091 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-05-17 02:21:12.091 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1231 ms
+2023-05-17 02:21:12.500 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-05-17 02:21:12.526 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-17 02:21:12.536 INFO  c.p.P.PackageConversionApiApplication - Started PackageConversionApiApplication in 2.233 seconds (process running for 2.997)
+2023-05-17 02:21:19.532 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-17 02:21:19.533 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-05-17 02:21:19.535 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2023-05-17 02:21:19.592 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'input' for method parameter type String is not present]
+2023-05-17 02:22:06.968 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'input' for method parameter type String is not present]
