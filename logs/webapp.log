@@ -104,3 +104,53 @@
 2023-05-17 11:10:51.332 INFO  c.p.P.PackageConversionApiApplicationTests - Started PackageConversionApiApplicationTests in 1.24 seconds (process running for 2.456)
 2023-05-17 11:10:51.731 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [1, 1]
 2023-05-17 11:10:51.732 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [1]
+2023-05-17 11:16:25.843 INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.package_measurement_conversion.PackageConversionAPI.PackageConversionApiApplicationTests]: PackageConversionApiApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-05-17 11:16:25.979 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.package_measurement_conversion.PackageConversionAPI.PackageConversionApiApplication for test class com.package_measurement_conversion.PackageConversionAPI.PackageConversionApiApplicationTests
+2023-05-17 11:16:26.546 INFO  c.p.P.PackageConversionApiApplicationTests - Starting PackageConversionApiApplicationTests using Java 17.0.2 with PID 21316 (started by Wasan in C:\Users\TRA0004\IdeaProjects\PackageConversionAPI)
+2023-05-17 11:16:26.549 INFO  c.p.P.PackageConversionApiApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2023-05-17 11:16:28.021 INFO  c.p.P.PackageConversionApiApplicationTests - Started PackageConversionApiApplicationTests in 1.813 seconds (process running for 3.288)
+2023-05-17 11:16:28.571 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [1, 1]
+2023-05-17 11:16:28.573 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [1]
+2023-05-17 11:16:28.593 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [1, 2, 2, 3, 3]
+2023-05-17 11:16:28.593 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [2, 6]
+2023-05-17 11:16:28.598 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [4, 26, 1, 0, 1, 1, 53, 1, 1]
+2023-05-17 11:16:28.598 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [28, 53, 1]
+2023-05-17 11:16:28.601 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: []
+2023-05-17 11:16:28.601 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: []
+2023-05-17 11:16:28.605 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [1, 0]
+2023-05-17 11:16:28.605 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [0]
+2023-05-17 11:16:28.609 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [1, 2, 3, 4, 1, 2, 3, 4, 1, 2]
+2023-05-17 11:16:28.609 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [2, 7, 7]
+2023-05-17 11:16:28.614 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [1, 2, 3, 4, 1, 2, 3, 4, 1, 2, 0]
+2023-05-17 11:16:28.614 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [2, 7, 7, 0]
+2023-05-17 11:16:28.617 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [30, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 1, 1]
+2023-05-17 11:16:28.618 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [34]
+2023-05-17 11:16:28.622 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [53, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0]
+2023-05-17 11:16:28.626 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [26]
+2023-05-17 11:16:28.631 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [27, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 27, 1, 1]
+2023-05-17 11:16:28.632 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [40, 1]
+2023-05-17 11:17:55.586 INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.package_measurement_conversion.PackageConversionAPI.PackageConversionApiApplicationTests]: PackageConversionApiApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-05-17 11:17:55.680 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.package_measurement_conversion.PackageConversionAPI.PackageConversionApiApplication for test class com.package_measurement_conversion.PackageConversionAPI.PackageConversionApiApplicationTests
+2023-05-17 11:17:56.042 INFO  c.p.P.PackageConversionApiApplicationTests - Starting PackageConversionApiApplicationTests using Java 17.0.2 with PID 5108 (started by Wasan in C:\Users\TRA0004\IdeaProjects\PackageConversionAPI)
+2023-05-17 11:17:56.043 INFO  c.p.P.PackageConversionApiApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2023-05-17 11:17:57.193 INFO  c.p.P.PackageConversionApiApplicationTests - Started PackageConversionApiApplicationTests in 1.368 seconds (process running for 2.494)
+2023-05-17 11:17:57.736 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [1, 1]
+2023-05-17 11:17:57.738 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [1]
+2023-05-17 11:17:57.754 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [1, 2, 2, 3, 3]
+2023-05-17 11:17:57.755 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [2, 6]
+2023-05-17 11:17:57.760 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [4, 26, 1, 0, 1, 1, 53, 1, 1]
+2023-05-17 11:17:57.761 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [28, 53, 1]
+2023-05-17 11:17:57.764 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: []
+2023-05-17 11:17:57.764 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: []
+2023-05-17 11:17:57.767 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [1, 0]
+2023-05-17 11:17:57.767 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [0]
+2023-05-17 11:17:57.770 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [1, 2, 3, 4, 1, 2, 3, 4, 1, 2]
+2023-05-17 11:17:57.770 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [2, 7, 7]
+2023-05-17 11:17:57.773 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [1, 2, 3, 4, 1, 2, 3, 4, 1, 2, 0]
+2023-05-17 11:17:57.774 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [2, 7, 7, 0]
+2023-05-17 11:17:57.778 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [30, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 1, 1]
+2023-05-17 11:17:57.778 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [34]
+2023-05-17 11:17:57.781 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [53, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0]
+2023-05-17 11:17:57.781 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [26]
+2023-05-17 11:17:57.786 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [27, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 27, 1, 1]
+2023-05-17 11:17:57.786 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [40, 1]
