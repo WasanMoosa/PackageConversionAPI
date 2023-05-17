@@ -41,7 +41,7 @@ public class ConversionMeasurementService {
         List<Integer> result = new ArrayList<>();
         List<Integer> numberList = convertInputToNumbers(input);
 
-        // pointer start from 0 and move on to the last value
+        // pointer starts from 0 and moves to the last value
         int pointer = 0;
         while (pointer < numberList.size()) {
 
@@ -52,19 +52,28 @@ public class ConversionMeasurementService {
             // Determine the index of the first value in the cycle
             int valueNum = pointer + 1;
 
-            // Iterate through the value numbers and add them to the value
-            for (int p = 0; p < countNum; p++) {
-                value = value + numberList.get(valueNum);
-                valueNum++;
+            try {
+                // Iterate through the value numbers and add them to the value
+                for (int p = 0; p < countNum; p++) {
+                    value += numberList.get(valueNum);
+                    valueNum++;
+                }
+
+                // Add the final value to the result list
+                result.add(value);
+
+                // Move to the next cycle
+                pointer = pointer + countNum + 1;
+            } catch (Exception e) {
+                logger.error("Error occurred while processing input: {}", e.getMessage());
+
+                // return Empty list
+                List<Integer> emptyList = new ArrayList<>();
+                return emptyList;
             }
-
-            // Add final value to arraylist
-            result.add(value);
-
-            // Move to next cycle
-            pointer = pointer + countNum + 1;
         }
-        logger.info("Input has been processed successfully");
+
+        logger.info("Input processed successfully. Result: {}", result);
         return result;
     }
 
@@ -126,7 +135,7 @@ public class ConversionMeasurementService {
                 numberList.add(zValue);
             }
         }
-        logger.info("Input has been converted to list of numbers for further process.");
+        logger.info("Input has been successfully converted to a list of numbers. Number list: {}", numberList);
         return numberList;
 
     }

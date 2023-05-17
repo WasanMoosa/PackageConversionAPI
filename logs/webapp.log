@@ -29,3 +29,57 @@
 2023-05-17 02:21:19.535 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
 2023-05-17 02:21:19.592 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'input' for method parameter type String is not present]
 2023-05-17 02:22:06.968 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'input' for method parameter type String is not present]
+2023-05-17 10:22:37.245 INFO  c.p.P.PackageConversionApiApplication - Starting PackageConversionApiApplication using Java 18.0.2.1 with PID 21032 (C:\Users\TRA0004\IdeaProjects\PackageConversionAPI\target\classes started by Wasan in C:\Users\TRA0004\IdeaProjects\PackageConversionAPI)
+2023-05-17 10:22:37.248 INFO  c.p.P.PackageConversionApiApplication - No active profile set, falling back to 1 default profile: "default"
+2023-05-17 10:22:38.381 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-05-17 10:22:38.397 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-17 10:22:38.398 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-05-17 10:22:38.398 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-17 10:22:38.513 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-05-17 10:22:38.514 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1210 ms
+2023-05-17 10:22:38.903 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-05-17 10:22:38.928 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-17 10:22:38.941 INFO  c.p.P.PackageConversionApiApplication - Started PackageConversionApiApplication in 2.164 seconds (process running for 2.944)
+2023-05-17 10:23:00.366 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-17 10:23:00.366 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-05-17 10:23:00.367 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-05-17 10:23:00.406 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [1, 1]
+2023-05-17 10:23:00.408 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [1]
+2023-05-17 10:23:00.443 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [1, 2, 2, 3, 3]
+2023-05-17 10:23:00.443 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [2, 6]
+2023-05-17 10:23:00.448 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [4, 26, 1, 0, 1, 1, 53, 1, 1]
+2023-05-17 10:23:00.448 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [28, 53, 1]
+2023-05-17 10:23:00.452 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [0]
+2023-05-17 10:23:00.452 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [0]
+2023-05-17 10:23:00.457 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [1, 0]
+2023-05-17 10:23:00.457 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [0]
+2023-05-17 10:23:00.461 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [1, 2, 3, 4, 1, 2, 3, 4, 1, 2]
+2023-05-17 10:23:00.461 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [2, 7, 7]
+2023-05-17 10:23:00.465 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [1, 2, 3, 4, 1, 2, 3, 4, 1, 2, 0]
+2023-05-17 10:23:00.465 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [2, 7, 7, 0]
+2023-05-17 10:23:00.469 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [30, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 1, 1]
+2023-05-17 10:23:00.469 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [34]
+2023-05-17 10:23:00.473 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [53, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0]
+2023-05-17 10:23:00.474 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [26]
+2023-05-17 10:23:00.477 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [27, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 27, 1, 1]
+2023-05-17 10:23:00.477 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [40, 1]
+2023-05-17 10:23:20.356 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [1, 2, 2, 3, 3, 15, 14]
+2023-05-17 10:23:20.357 ERROR c.p.P.S.ConversionMeasurementService - Error occurred while processing input: Index 7 out of bounds for length 7
+2023-05-17 10:25:01.563 INFO  c.p.P.PackageConversionApiApplication - Starting PackageConversionApiApplication using Java 18.0.2.1 with PID 17472 (C:\Users\TRA0004\IdeaProjects\PackageConversionAPI\target\classes started by Wasan in C:\Users\TRA0004\IdeaProjects\PackageConversionAPI)
+2023-05-17 10:25:01.566 INFO  c.p.P.PackageConversionApiApplication - No active profile set, falling back to 1 default profile: "default"
+2023-05-17 10:25:02.681 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-05-17 10:25:02.697 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-17 10:25:02.697 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-05-17 10:25:02.698 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-17 10:25:02.798 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-05-17 10:25:02.798 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1167 ms
+2023-05-17 10:25:03.224 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-05-17 10:25:03.253 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-17 10:25:03.273 INFO  c.p.P.PackageConversionApiApplication - Started PackageConversionApiApplication in 2.1 seconds (process running for 2.797)
+2023-05-17 10:25:06.375 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-17 10:25:06.376 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-05-17 10:25:06.377 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-05-17 10:25:06.432 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [1, 2, 2, 3, 3, 15, 14]
+2023-05-17 10:25:06.433 ERROR c.p.P.S.ConversionMeasurementService - Error occurred while processing input: Index 7 out of bounds for length 7
+2023-05-17 10:25:27.143 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [0, 0, 1, 2, 2, 3, 3, 15, 14]
+2023-05-17 10:25:27.144 ERROR c.p.P.S.ConversionMeasurementService - Error occurred while processing input: Index 9 out of bounds for length 9
