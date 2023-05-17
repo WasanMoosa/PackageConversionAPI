@@ -4,7 +4,7 @@ import com.package_measurement_conversion.PackageConversionAPI.Service.Conversio
 import com.package_measurement_conversion.PackageConversionAPI.Service.InputValidationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
-import org.springframework.stereotype.Service;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -13,9 +13,8 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.ArrayList;
 import java.util.List;
 
-
 @RestController
-@RequestMapping("/api")
+@RequestMapping()
 public class MainController {
 
     @Autowired
@@ -28,24 +27,23 @@ public class MainController {
      * Convert measurements based on the provided input.
      *
      * @param input The input string for measurements conversion.
-     * @return The converted measurements or an error message.
+     * @return The response entity containing the converted measurements or an empty List.
      */
     @GetMapping("/convert-measurements")
-    public Object convertMeasurements(@RequestParam(value = "input") String input) {
-        List<Integer> numList = new ArrayList<>();
-
+    public ResponseEntity<List<Integer>> convertMeasurements(@RequestParam(value = "input") String input) {
         if (inputValidationService.checkInputValidation(input)) {
 
             // If the input is valid, apply the special logic for measurement conversion
-            return conversionMeasurementService.applySpecialLogic(input);
+            List<Integer> convertedMeasurements = conversionMeasurementService.applySpecialLogic(input);
+            return ResponseEntity.ok(convertedMeasurements);
         } else if (inputValidationService.isEmptyString(input)) {
 
             // If the input is an empty string, return an empty list
-            return numList;
+            return ResponseEntity.ok().body(new ArrayList<>());
         } else {
 
-            // If the input is invalid, return an error message
-            return "You are typing something wrong!!" + "\nYou can only type letters and underscores";
+            // If the input is invalid, return an empty list with HTTP status 400 (Bad Request)
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(new ArrayList<>());
         }
     }
 }

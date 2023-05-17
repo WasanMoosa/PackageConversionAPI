@@ -14,8 +14,8 @@ import java.util.List;
  */
 public class ConversionMeasurementService {
     /**
-     * Applies a special logic to the input string and returns an ArrayList of numbers based on the logic.
-     * The logic involves converting the input string to an ArrayList of numbers using the "convertInputToNumbers"
+     * Applies a special logic to the input string and returns a List of numbers based on the logic.
+     * The logic involves converting the input string to a List of numbers using the "convertInputToNumbers"
      * function, and then applying further calculations based on specific rules.
      * <p>
      * The rules for the special logic are as follows:
@@ -79,7 +79,7 @@ public class ConversionMeasurementService {
 
 
     /**
-     * Converts the input string to an ArrayList of numbers based on a specific logic.
+     * Converts the input string to a List of numbers based on a specific logic.
      * The logic involves converting alphabetic characters and underscore to corresponding numerical values:
      * - '_' corresponds to 0
      * - 'a' corresponds to 1
