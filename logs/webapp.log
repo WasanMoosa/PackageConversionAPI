@@ -1,0 +1,330 @@
+2023-05-17 02:09:59.318 INFO  c.p.P.PackageConversionApiApplication - Starting PackageConversionApiApplication using Java 18.0.2.1 with PID 7328 (C:\Users\TRA0004\IdeaProjects\PackageConversionAPI\target\classes started by Wasan in C:\Users\TRA0004\IdeaProjects\PackageConversionAPI)
+2023-05-17 02:09:59.322 INFO  c.p.P.PackageConversionApiApplication - No active profile set, falling back to 1 default profile: "default"
+2023-05-17 02:10:00.522 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-05-17 02:10:00.535 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-17 02:10:00.536 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-05-17 02:10:00.537 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-17 02:10:00.640 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-05-17 02:10:00.640 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1244 ms
+2023-05-17 02:10:01.015 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-05-17 02:10:01.047 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-17 02:10:01.058 INFO  c.p.P.PackageConversionApiApplication - Started PackageConversionApiApplication in 2.218 seconds (process running for 3.002)
+2023-05-17 02:10:41.631 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-17 02:10:41.631 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-05-17 02:10:41.632 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-05-17 02:10:41.690 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'input' for method parameter type String is not present]
+2023-05-17 02:21:10.781 INFO  c.p.P.PackageConversionApiApplication - Starting PackageConversionApiApplication using Java 18.0.2.1 with PID 14416 (C:\Users\TRA0004\IdeaProjects\PackageConversionAPI\target\classes started by Wasan in C:\Users\TRA0004\IdeaProjects\PackageConversionAPI)
+2023-05-17 02:21:10.785 INFO  c.p.P.PackageConversionApiApplication - No active profile set, falling back to 1 default profile: "default"
+2023-05-17 02:21:11.958 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-05-17 02:21:11.973 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-17 02:21:11.974 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-05-17 02:21:11.976 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-17 02:21:12.091 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-05-17 02:21:12.091 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1231 ms
+2023-05-17 02:21:12.500 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-05-17 02:21:12.526 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-17 02:21:12.536 INFO  c.p.P.PackageConversionApiApplication - Started PackageConversionApiApplication in 2.233 seconds (process running for 2.997)
+2023-05-17 02:21:19.532 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-17 02:21:19.533 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-05-17 02:21:19.535 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2023-05-17 02:21:19.592 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'input' for method parameter type String is not present]
+2023-05-17 02:22:06.968 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'input' for method parameter type String is not present]
+2023-05-17 10:22:37.245 INFO  c.p.P.PackageConversionApiApplication - Starting PackageConversionApiApplication using Java 18.0.2.1 with PID 21032 (C:\Users\TRA0004\IdeaProjects\PackageConversionAPI\target\classes started by Wasan in C:\Users\TRA0004\IdeaProjects\PackageConversionAPI)
+2023-05-17 10:22:37.248 INFO  c.p.P.PackageConversionApiApplication - No active profile set, falling back to 1 default profile: "default"
+2023-05-17 10:22:38.381 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-05-17 10:22:38.397 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-17 10:22:38.398 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-05-17 10:22:38.398 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-17 10:22:38.513 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-05-17 10:22:38.514 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1210 ms
+2023-05-17 10:22:38.903 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-05-17 10:22:38.928 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-17 10:22:38.941 INFO  c.p.P.PackageConversionApiApplication - Started PackageConversionApiApplication in 2.164 seconds (process running for 2.944)
+2023-05-17 10:23:00.366 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-17 10:23:00.366 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-05-17 10:23:00.367 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-05-17 10:23:00.406 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [1, 1]
+2023-05-17 10:23:00.408 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [1]
+2023-05-17 10:23:00.443 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [1, 2, 2, 3, 3]
+2023-05-17 10:23:00.443 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [2, 6]
+2023-05-17 10:23:00.448 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [4, 26, 1, 0, 1, 1, 53, 1, 1]
+2023-05-17 10:23:00.448 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [28, 53, 1]
+2023-05-17 10:23:00.452 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [0]
+2023-05-17 10:23:00.452 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [0]
+2023-05-17 10:23:00.457 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [1, 0]
+2023-05-17 10:23:00.457 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [0]
+2023-05-17 10:23:00.461 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [1, 2, 3, 4, 1, 2, 3, 4, 1, 2]
+2023-05-17 10:23:00.461 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [2, 7, 7]
+2023-05-17 10:23:00.465 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [1, 2, 3, 4, 1, 2, 3, 4, 1, 2, 0]
+2023-05-17 10:23:00.465 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [2, 7, 7, 0]
+2023-05-17 10:23:00.469 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [30, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 1, 1]
+2023-05-17 10:23:00.469 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [34]
+2023-05-17 10:23:00.473 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [53, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0]
+2023-05-17 10:23:00.474 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [26]
+2023-05-17 10:23:00.477 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [27, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 27, 1, 1]
+2023-05-17 10:23:00.477 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [40, 1]
+2023-05-17 10:23:20.356 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [1, 2, 2, 3, 3, 15, 14]
+2023-05-17 10:23:20.357 ERROR c.p.P.S.ConversionMeasurementService - Error occurred while processing input: Index 7 out of bounds for length 7
+2023-05-17 10:25:01.563 INFO  c.p.P.PackageConversionApiApplication - Starting PackageConversionApiApplication using Java 18.0.2.1 with PID 17472 (C:\Users\TRA0004\IdeaProjects\PackageConversionAPI\target\classes started by Wasan in C:\Users\TRA0004\IdeaProjects\PackageConversionAPI)
+2023-05-17 10:25:01.566 INFO  c.p.P.PackageConversionApiApplication - No active profile set, falling back to 1 default profile: "default"
+2023-05-17 10:25:02.681 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-05-17 10:25:02.697 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-17 10:25:02.697 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-05-17 10:25:02.698 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-17 10:25:02.798 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-05-17 10:25:02.798 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1167 ms
+2023-05-17 10:25:03.224 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-05-17 10:25:03.253 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-17 10:25:03.273 INFO  c.p.P.PackageConversionApiApplication - Started PackageConversionApiApplication in 2.1 seconds (process running for 2.797)
+2023-05-17 10:25:06.375 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-17 10:25:06.376 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-05-17 10:25:06.377 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-05-17 10:25:06.432 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [1, 2, 2, 3, 3, 15, 14]
+2023-05-17 10:25:06.433 ERROR c.p.P.S.ConversionMeasurementService - Error occurred while processing input: Index 7 out of bounds for length 7
+2023-05-17 10:25:27.143 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [0, 0, 1, 2, 2, 3, 3, 15, 14]
+2023-05-17 10:25:27.144 ERROR c.p.P.S.ConversionMeasurementService - Error occurred while processing input: Index 9 out of bounds for length 9
+2023-05-17 11:04:07.666 INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.package_measurement_conversion.PackageConversionAPI.PackageConversionApiApplicationTests]: PackageConversionApiApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-05-17 11:04:07.809 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.package_measurement_conversion.PackageConversionAPI.PackageConversionApiApplication for test class com.package_measurement_conversion.PackageConversionAPI.PackageConversionApiApplicationTests
+2023-05-17 11:04:08.203 INFO  c.p.P.PackageConversionApiApplicationTests - Starting PackageConversionApiApplicationTests using Java 18.0.2.1 with PID 18532 (started by Wasan in C:\Users\TRA0004\IdeaProjects\PackageConversionAPI)
+2023-05-17 11:04:08.204 INFO  c.p.P.PackageConversionApiApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2023-05-17 11:04:09.925 INFO  c.p.P.PackageConversionApiApplicationTests - Started PackageConversionApiApplicationTests in 1.935 seconds (process running for 3.268)
+2023-05-17 11:04:10.439 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [1, 1]
+2023-05-17 11:04:10.441 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [1]
+2023-05-17 11:05:43.303 INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.package_measurement_conversion.PackageConversionAPI.PackageConversionApiApplicationTests]: PackageConversionApiApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-05-17 11:05:43.412 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.package_measurement_conversion.PackageConversionAPI.PackageConversionApiApplication for test class com.package_measurement_conversion.PackageConversionAPI.PackageConversionApiApplicationTests
+2023-05-17 11:05:43.770 INFO  c.p.P.PackageConversionApiApplicationTests - Starting PackageConversionApiApplicationTests using Java 18.0.2.1 with PID 11260 (started by Wasan in C:\Users\TRA0004\IdeaProjects\PackageConversionAPI)
+2023-05-17 11:05:43.771 INFO  c.p.P.PackageConversionApiApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2023-05-17 11:05:44.844 INFO  c.p.P.PackageConversionApiApplicationTests - Started PackageConversionApiApplicationTests in 1.244 seconds (process running for 2.531)
+2023-05-17 11:05:45.183 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [1, 2, 2, 3, 3]
+2023-05-17 11:05:45.184 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [2, 6]
+2023-05-17 11:10:49.841 INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.package_measurement_conversion.PackageConversionAPI.PackageConversionApiApplicationTests]: PackageConversionApiApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-05-17 11:10:49.946 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.package_measurement_conversion.PackageConversionAPI.PackageConversionApiApplication for test class com.package_measurement_conversion.PackageConversionAPI.PackageConversionApiApplicationTests
+2023-05-17 11:10:50.290 INFO  c.p.P.PackageConversionApiApplicationTests - Starting PackageConversionApiApplicationTests using Java 18.0.2.1 with PID 20756 (started by Wasan in C:\Users\TRA0004\IdeaProjects\PackageConversionAPI)
+2023-05-17 11:10:50.291 INFO  c.p.P.PackageConversionApiApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2023-05-17 11:10:51.332 INFO  c.p.P.PackageConversionApiApplicationTests - Started PackageConversionApiApplicationTests in 1.24 seconds (process running for 2.456)
+2023-05-17 11:10:51.731 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [1, 1]
+2023-05-17 11:10:51.732 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [1]
+2023-05-17 11:16:25.843 INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.package_measurement_conversion.PackageConversionAPI.PackageConversionApiApplicationTests]: PackageConversionApiApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-05-17 11:16:25.979 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.package_measurement_conversion.PackageConversionAPI.PackageConversionApiApplication for test class com.package_measurement_conversion.PackageConversionAPI.PackageConversionApiApplicationTests
+2023-05-17 11:16:26.546 INFO  c.p.P.PackageConversionApiApplicationTests - Starting PackageConversionApiApplicationTests using Java 17.0.2 with PID 21316 (started by Wasan in C:\Users\TRA0004\IdeaProjects\PackageConversionAPI)
+2023-05-17 11:16:26.549 INFO  c.p.P.PackageConversionApiApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2023-05-17 11:16:28.021 INFO  c.p.P.PackageConversionApiApplicationTests - Started PackageConversionApiApplicationTests in 1.813 seconds (process running for 3.288)
+2023-05-17 11:16:28.571 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [1, 1]
+2023-05-17 11:16:28.573 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [1]
+2023-05-17 11:16:28.593 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [1, 2, 2, 3, 3]
+2023-05-17 11:16:28.593 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [2, 6]
+2023-05-17 11:16:28.598 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [4, 26, 1, 0, 1, 1, 53, 1, 1]
+2023-05-17 11:16:28.598 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [28, 53, 1]
+2023-05-17 11:16:28.601 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: []
+2023-05-17 11:16:28.601 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: []
+2023-05-17 11:16:28.605 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [1, 0]
+2023-05-17 11:16:28.605 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [0]
+2023-05-17 11:16:28.609 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [1, 2, 3, 4, 1, 2, 3, 4, 1, 2]
+2023-05-17 11:16:28.609 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [2, 7, 7]
+2023-05-17 11:16:28.614 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [1, 2, 3, 4, 1, 2, 3, 4, 1, 2, 0]
+2023-05-17 11:16:28.614 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [2, 7, 7, 0]
+2023-05-17 11:16:28.617 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [30, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 1, 1]
+2023-05-17 11:16:28.618 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [34]
+2023-05-17 11:16:28.622 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [53, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0]
+2023-05-17 11:16:28.626 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [26]
+2023-05-17 11:16:28.631 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [27, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 27, 1, 1]
+2023-05-17 11:16:28.632 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [40, 1]
+2023-05-17 11:17:55.586 INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.package_measurement_conversion.PackageConversionAPI.PackageConversionApiApplicationTests]: PackageConversionApiApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-05-17 11:17:55.680 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.package_measurement_conversion.PackageConversionAPI.PackageConversionApiApplication for test class com.package_measurement_conversion.PackageConversionAPI.PackageConversionApiApplicationTests
+2023-05-17 11:17:56.042 INFO  c.p.P.PackageConversionApiApplicationTests - Starting PackageConversionApiApplicationTests using Java 17.0.2 with PID 5108 (started by Wasan in C:\Users\TRA0004\IdeaProjects\PackageConversionAPI)
+2023-05-17 11:17:56.043 INFO  c.p.P.PackageConversionApiApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2023-05-17 11:17:57.193 INFO  c.p.P.PackageConversionApiApplicationTests - Started PackageConversionApiApplicationTests in 1.368 seconds (process running for 2.494)
+2023-05-17 11:17:57.736 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [1, 1]
+2023-05-17 11:17:57.738 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [1]
+2023-05-17 11:17:57.754 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [1, 2, 2, 3, 3]
+2023-05-17 11:17:57.755 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [2, 6]
+2023-05-17 11:17:57.760 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [4, 26, 1, 0, 1, 1, 53, 1, 1]
+2023-05-17 11:17:57.761 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [28, 53, 1]
+2023-05-17 11:17:57.764 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: []
+2023-05-17 11:17:57.764 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: []
+2023-05-17 11:17:57.767 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [1, 0]
+2023-05-17 11:17:57.767 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [0]
+2023-05-17 11:17:57.770 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [1, 2, 3, 4, 1, 2, 3, 4, 1, 2]
+2023-05-17 11:17:57.770 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [2, 7, 7]
+2023-05-17 11:17:57.773 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [1, 2, 3, 4, 1, 2, 3, 4, 1, 2, 0]
+2023-05-17 11:17:57.774 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [2, 7, 7, 0]
+2023-05-17 11:17:57.778 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [30, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 1, 1]
+2023-05-17 11:17:57.778 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [34]
+2023-05-17 11:17:57.781 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [53, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0]
+2023-05-17 11:17:57.781 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [26]
+2023-05-17 11:17:57.786 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [27, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 27, 1, 1]
+2023-05-17 11:17:57.786 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [40, 1]
+2023-05-17 13:36:25.373 INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.package_measurement_conversion.PackageConversionAPI.PackageConversionApiApplicationTests]: PackageConversionApiApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-05-17 13:36:25.529 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.package_measurement_conversion.PackageConversionAPI.PackageConversionApiApplication for test class com.package_measurement_conversion.PackageConversionAPI.PackageConversionApiApplicationTests
+2023-05-17 13:36:25.941 INFO  c.p.P.PackageConversionApiApplicationTests - Starting PackageConversionApiApplicationTests using Java 18.0.2.1 with PID 17456 (started by Wasan in C:\Users\TRA0004\IdeaProjects\PackageConversionAPI)
+2023-05-17 13:36:25.942 INFO  c.p.P.PackageConversionApiApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2023-05-17 13:36:27.499 INFO  c.p.P.PackageConversionApiApplicationTests - Started PackageConversionApiApplicationTests in 1.796 seconds (process running for 3.328)
+2023-05-17 13:36:28.034 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [1, 1]
+2023-05-17 13:36:28.034 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [1]
+2023-05-17 13:37:45.908 INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.package_measurement_conversion.PackageConversionAPI.PackageConversionApiApplicationTests]: PackageConversionApiApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-05-17 13:37:46.024 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.package_measurement_conversion.PackageConversionAPI.PackageConversionApiApplication for test class com.package_measurement_conversion.PackageConversionAPI.PackageConversionApiApplicationTests
+2023-05-17 13:37:46.396 INFO  c.p.P.PackageConversionApiApplicationTests - Starting PackageConversionApiApplicationTests using Java 18.0.2.1 with PID 17008 (started by Wasan in C:\Users\TRA0004\IdeaProjects\PackageConversionAPI)
+2023-05-17 13:37:46.397 INFO  c.p.P.PackageConversionApiApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2023-05-17 13:37:47.673 INFO  c.p.P.PackageConversionApiApplicationTests - Started PackageConversionApiApplicationTests in 1.494 seconds (process running for 2.928)
+2023-05-17 13:37:48.099 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [1, 1]
+2023-05-17 13:37:48.101 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [1]
+2023-05-17 13:38:27.295 INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.package_measurement_conversion.PackageConversionAPI.PackageConversionApiApplicationTests]: PackageConversionApiApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-05-17 13:38:27.405 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.package_measurement_conversion.PackageConversionAPI.PackageConversionApiApplication for test class com.package_measurement_conversion.PackageConversionAPI.PackageConversionApiApplicationTests
+2023-05-17 13:38:27.741 INFO  c.p.P.PackageConversionApiApplicationTests - Starting PackageConversionApiApplicationTests using Java 18.0.2.1 with PID 17052 (started by Wasan in C:\Users\TRA0004\IdeaProjects\PackageConversionAPI)
+2023-05-17 13:38:27.742 INFO  c.p.P.PackageConversionApiApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2023-05-17 13:38:28.803 INFO  c.p.P.PackageConversionApiApplicationTests - Started PackageConversionApiApplicationTests in 1.261 seconds (process running for 2.483)
+2023-05-17 13:38:29.210 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [1, 1]
+2023-05-17 13:38:29.212 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [1]
+2023-05-17 13:38:40.534 INFO  c.p.P.PackageConversionApiApplication - Starting PackageConversionApiApplication using Java 18.0.2.1 with PID 19784 (C:\Users\TRA0004\IdeaProjects\PackageConversionAPI\target\classes started by Wasan in C:\Users\TRA0004\IdeaProjects\PackageConversionAPI)
+2023-05-17 13:38:40.536 INFO  c.p.P.PackageConversionApiApplication - No active profile set, falling back to 1 default profile: "default"
+2023-05-17 13:38:41.615 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-05-17 13:38:41.625 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-17 13:38:41.626 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-05-17 13:38:41.626 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-17 13:38:41.720 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-05-17 13:38:41.720 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1127 ms
+2023-05-17 13:38:42.076 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-05-17 13:38:42.131 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-17 13:38:42.139 INFO  c.p.P.PackageConversionApiApplication - Started PackageConversionApiApplication in 1.968 seconds (process running for 2.622)
+2023-05-17 13:38:47.752 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-17 13:38:47.752 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-05-17 13:38:47.753 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-05-17 13:39:31.994 INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.package_measurement_conversion.PackageConversionAPI.PackageConversionApiApplicationTests]: PackageConversionApiApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-05-17 13:39:32.106 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.package_measurement_conversion.PackageConversionAPI.PackageConversionApiApplication for test class com.package_measurement_conversion.PackageConversionAPI.PackageConversionApiApplicationTests
+2023-05-17 13:39:32.491 INFO  c.p.P.PackageConversionApiApplicationTests - Starting PackageConversionApiApplicationTests using Java 18.0.2.1 with PID 21436 (started by Wasan in C:\Users\TRA0004\IdeaProjects\PackageConversionAPI)
+2023-05-17 13:39:32.493 INFO  c.p.P.PackageConversionApiApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2023-05-17 13:39:33.663 INFO  c.p.P.PackageConversionApiApplicationTests - Started PackageConversionApiApplicationTests in 1.37 seconds (process running for 2.782)
+2023-05-17 13:39:34.111 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [1, 1]
+2023-05-17 13:39:34.113 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [1]
+2023-05-17 13:39:34.133 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [1, 2, 2, 3, 3]
+2023-05-17 13:39:34.133 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [2, 6]
+2023-05-17 13:39:34.138 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [4, 26, 1, 0, 1, 1, 53, 1, 1]
+2023-05-17 13:39:34.138 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [28, 53, 1]
+2023-05-17 13:39:34.144 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: []
+2023-05-17 13:39:34.145 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: []
+2023-05-17 13:39:34.149 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [1, 0]
+2023-05-17 13:39:34.149 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [0]
+2023-05-17 13:39:34.154 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [1, 2, 3, 4, 1, 2, 3, 4, 1, 2]
+2023-05-17 13:39:34.154 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [2, 7, 7]
+2023-05-17 13:39:34.160 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [1, 2, 3, 4, 1, 2, 3, 4, 1, 2, 0]
+2023-05-17 13:39:34.161 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [2, 7, 7, 0]
+2023-05-17 13:39:34.165 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [30, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 1, 1]
+2023-05-17 13:39:34.166 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [34]
+2023-05-17 13:39:34.170 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [53, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0]
+2023-05-17 13:39:34.170 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [26]
+2023-05-17 13:39:34.173 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [27, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 27, 1, 1]
+2023-05-17 13:39:34.173 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [40, 1]
+2023-05-17 13:39:57.336 INFO  c.p.P.PackageConversionApiApplication - Starting PackageConversionApiApplication using Java 18.0.2.1 with PID 6080 (C:\Users\TRA0004\IdeaProjects\PackageConversionAPI\target\classes started by Wasan in C:\Users\TRA0004\IdeaProjects\PackageConversionAPI)
+2023-05-17 13:39:57.339 INFO  c.p.P.PackageConversionApiApplication - No active profile set, falling back to 1 default profile: "default"
+2023-05-17 13:39:58.398 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-05-17 13:39:58.412 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-17 13:39:58.414 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-05-17 13:39:58.414 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-17 13:39:58.525 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-05-17 13:39:58.526 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1125 ms
+2023-05-17 13:39:58.868 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-05-17 13:39:58.894 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-17 13:39:58.903 INFO  c.p.P.PackageConversionApiApplication - Started PackageConversionApiApplication in 1.959 seconds (process running for 2.624)
+2023-05-17 13:40:08.577 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-17 13:40:08.577 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-05-17 13:40:08.577 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2023-05-17 13:41:02.418 INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.package_measurement_conversion.PackageConversionAPI.PackageConversionApiApplicationTests]: PackageConversionApiApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-05-17 13:41:02.526 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.package_measurement_conversion.PackageConversionAPI.PackageConversionApiApplication for test class com.package_measurement_conversion.PackageConversionAPI.PackageConversionApiApplicationTests
+2023-05-17 13:41:02.888 INFO  c.p.P.PackageConversionApiApplicationTests - Starting PackageConversionApiApplicationTests using Java 18.0.2.1 with PID 8484 (started by Wasan in C:\Users\TRA0004\IdeaProjects\PackageConversionAPI)
+2023-05-17 13:41:02.889 INFO  c.p.P.PackageConversionApiApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2023-05-17 13:41:03.938 INFO  c.p.P.PackageConversionApiApplicationTests - Started PackageConversionApiApplicationTests in 1.238 seconds (process running for 2.66)
+2023-05-17 13:41:04.315 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [1, 1]
+2023-05-17 13:41:04.316 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [1]
+2023-05-17 13:41:04.327 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [1, 2, 2, 3, 3]
+2023-05-17 13:41:04.327 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [2, 6]
+2023-05-17 13:41:04.331 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [4, 26, 1, 0, 1, 1, 53, 1, 1]
+2023-05-17 13:41:04.331 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [28, 53, 1]
+2023-05-17 13:41:04.334 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: []
+2023-05-17 13:41:04.334 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: []
+2023-05-17 13:41:04.338 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [1, 0]
+2023-05-17 13:41:04.338 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [0]
+2023-05-17 13:41:04.342 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [1, 2, 3, 4, 1, 2, 3, 4, 1, 2]
+2023-05-17 13:41:04.342 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [2, 7, 7]
+2023-05-17 13:41:04.345 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [1, 2, 3, 4, 1, 2, 3, 4, 1, 2, 0]
+2023-05-17 13:41:04.345 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [2, 7, 7, 0]
+2023-05-17 13:41:04.348 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [30, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 1, 1]
+2023-05-17 13:41:04.349 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [34]
+2023-05-17 13:41:04.352 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [53, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0]
+2023-05-17 13:41:04.352 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [26]
+2023-05-17 13:41:04.355 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [27, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 27, 1, 1]
+2023-05-17 13:41:04.355 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [40, 1]
+2023-05-17 13:41:51.223 INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.package_measurement_conversion.PackageConversionAPI.PackageConversionApiApplicationTests]: PackageConversionApiApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-05-17 13:41:51.369 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.package_measurement_conversion.PackageConversionAPI.PackageConversionApiApplication for test class com.package_measurement_conversion.PackageConversionAPI.PackageConversionApiApplicationTests
+2023-05-17 13:41:51.764 INFO  c.p.P.PackageConversionApiApplicationTests - Starting PackageConversionApiApplicationTests using Java 18.0.2.1 with PID 5984 (started by Wasan in C:\Users\TRA0004\IdeaProjects\PackageConversionAPI)
+2023-05-17 13:41:51.766 INFO  c.p.P.PackageConversionApiApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2023-05-17 13:41:52.865 INFO  c.p.P.PackageConversionApiApplicationTests - Started PackageConversionApiApplicationTests in 1.315 seconds (process running for 2.66)
+2023-05-17 13:41:53.242 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [1, 1]
+2023-05-17 13:41:53.244 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [1]
+2023-05-17 13:41:53.262 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [1, 2, 2, 3, 3]
+2023-05-17 13:41:53.262 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [2, 6]
+2023-05-17 13:41:53.266 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [4, 26, 1, 0, 1, 1, 53, 1, 1]
+2023-05-17 13:41:53.267 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [28, 53, 1]
+2023-05-17 13:41:53.271 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: []
+2023-05-17 13:41:53.271 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: []
+2023-05-17 13:41:53.274 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [1, 0]
+2023-05-17 13:41:53.275 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [0]
+2023-05-17 13:41:53.278 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [1, 2, 3, 4, 1, 2, 3, 4, 1, 2]
+2023-05-17 13:41:53.278 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [2, 7, 7]
+2023-05-17 13:41:53.283 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [1, 2, 3, 4, 1, 2, 3, 4, 1, 2, 0]
+2023-05-17 13:41:53.283 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [2, 7, 7, 0]
+2023-05-17 13:41:53.287 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [30, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 1, 1]
+2023-05-17 13:41:53.287 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [34]
+2023-05-17 13:41:53.292 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [53, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0]
+2023-05-17 13:41:53.292 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [26]
+2023-05-17 13:41:53.296 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [27, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 27, 1, 1]
+2023-05-17 13:41:53.297 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [40, 1]
+2023-05-17 13:42:17.450 INFO  c.p.P.PackageConversionApiApplication - Starting PackageConversionApiApplication using Java 18.0.2.1 with PID 12412 (C:\Users\TRA0004\IdeaProjects\PackageConversionAPI\target\classes started by Wasan in C:\Users\TRA0004\IdeaProjects\PackageConversionAPI)
+2023-05-17 13:42:17.453 INFO  c.p.P.PackageConversionApiApplication - No active profile set, falling back to 1 default profile: "default"
+2023-05-17 13:42:18.433 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-05-17 13:42:18.445 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-17 13:42:18.446 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-05-17 13:42:18.446 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-17 13:42:18.569 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-05-17 13:42:18.569 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1060 ms
+2023-05-17 13:42:18.891 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-05-17 13:42:18.913 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-17 13:42:18.923 INFO  c.p.P.PackageConversionApiApplication - Started PackageConversionApiApplication in 1.841 seconds (process running for 2.415)
+2023-05-17 13:42:28.360 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-17 13:42:28.361 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-05-17 13:42:28.362 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-05-17 13:42:28.435 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [1]
+2023-05-17 13:42:28.436 ERROR c.p.P.S.ConversionMeasurementService - Error occurred while processing input: Index 1 out of bounds for length 1
+2023-05-17 13:47:33.346 INFO  c.p.P.PackageConversionApiApplication - Starting PackageConversionApiApplication using Java 18.0.2.1 with PID 11192 (C:\Users\TRA0004\IdeaProjects\PackageConversionAPI\target\classes started by Wasan in C:\Users\TRA0004\IdeaProjects\PackageConversionAPI)
+2023-05-17 13:47:33.348 INFO  c.p.P.PackageConversionApiApplication - No active profile set, falling back to 1 default profile: "default"
+2023-05-17 13:47:34.319 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-05-17 13:47:34.329 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-17 13:47:34.330 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-05-17 13:47:34.330 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-17 13:47:34.425 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-05-17 13:47:34.425 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1020 ms
+2023-05-17 13:47:34.773 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-05-17 13:47:34.793 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-17 13:47:34.804 INFO  c.p.P.PackageConversionApiApplication - Started PackageConversionApiApplication in 1.817 seconds (process running for 2.441)
+2023-05-17 13:47:54.650 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-17 13:47:54.651 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-05-17 13:47:54.654 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2023-05-17 13:47:54.724 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [1, 1]
+2023-05-17 13:47:54.727 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [1]
+2023-05-17 13:47:54.794 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [1, 2, 2, 3, 3]
+2023-05-17 13:47:54.795 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [2, 6]
+2023-05-17 13:47:54.800 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [4, 26, 1, 0, 1, 1, 53, 1, 1]
+2023-05-17 13:47:54.800 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [28, 53, 1]
+2023-05-17 13:47:54.806 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [0]
+2023-05-17 13:47:54.806 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [0]
+2023-05-17 13:47:54.812 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [1, 0]
+2023-05-17 13:47:54.812 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [0]
+2023-05-17 13:47:54.819 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [1, 2, 3, 4, 1, 2, 3, 4, 1, 2]
+2023-05-17 13:47:54.819 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [2, 7, 7]
+2023-05-17 13:47:54.825 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [1, 2, 3, 4, 1, 2, 3, 4, 1, 2, 0]
+2023-05-17 13:47:54.826 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [2, 7, 7, 0]
+2023-05-17 13:47:54.831 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [30, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 1, 1]
+2023-05-17 13:47:54.832 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [34]
+2023-05-17 13:47:54.839 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [53, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0]
+2023-05-17 13:47:54.840 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [26]
+2023-05-17 13:47:54.846 INFO  c.p.P.S.ConversionMeasurementService - Input has been successfully converted to a list of numbers. Number list: [27, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 27, 1, 1]
+2023-05-17 13:47:54.846 INFO  c.p.P.S.ConversionMeasurementService - Input processed successfully. Result: [40, 1]
